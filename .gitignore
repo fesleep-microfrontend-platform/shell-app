@@ -39,6 +39,9 @@ testem.log
 /typings
 __screenshots__/
 
+# Environment (production URLs - copy from environment.prod.sample.ts)
+src/environments/environment.prod.ts
+
 # System files
 .DS_Store
 Thumbs.db

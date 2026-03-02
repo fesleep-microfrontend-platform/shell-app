@@ -1,9 +1,7 @@
 import { initFederation } from '@angular-architects/native-federation';
+import { environment } from './environments/environment';
 
-initFederation({
-  contact: 'http://localhost:4201/remoteEntry.json',
-  dashboard: 'http://localhost:4202/remoteEntry.json',
-})
+initFederation(environment.federation)
   .catch((err) => console.error(err))
   .then((_) => import('./bootstrap'))
   .catch((err) => console.error(err));

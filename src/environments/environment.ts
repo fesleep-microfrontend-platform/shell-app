@@ -1,0 +1,7 @@
+export const environment = {
+  production: false,
+  federation: {
+    contact: 'http://localhost:4201/remoteEntry.json',
+    dashboard: 'http://localhost:4202/remoteEntry.json',
+  },
+} as const;

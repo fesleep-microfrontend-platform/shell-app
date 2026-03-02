@@ -5,8 +5,8 @@ export const routes: Routes = [
     {
         path: 'contact',
             loadComponent: () => 
-                loadRemoteModule('contact', './ContactHome')
-                    .then(m => m.ContactHome)
+                loadRemoteModule('contact', './Contact')
+                    .then(m => m.Contact)
     },
     {
         path: 'dashboard',
