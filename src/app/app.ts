@@ -1,7 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { UiButtonComponent, UiStackComponent } from '@farm/ui-design-system';
+import { UiButtonComponent, UiStackComponent } from '@fesleep-microfrontend-platform/ui-design-system';
 
 const THEME_STORAGE_KEY = 'theme';
 const LOCALE_STORAGE_KEY = 'locale';
