@@ -1,0 +1,20 @@
+name: Deploy Shell App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    uses: fesleep-microfrontend-platform/github-workflows/.github/workflows/deploy-s3.yml@main
+    permissions:
+      id-token: write
+      contents: read
+      packages: read
+    with:
+      bucket_name: ${{ vars.BUCKET_NAME }}
+      aws_region: ${{ vars.AWS_REGION }}
+      app_name: ${{ vars.APP_NAME }}
+      role_arn: ${{ vars.ROLE_ARN }}
+    secrets: inherit
