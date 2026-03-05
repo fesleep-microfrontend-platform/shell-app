@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+      - feature/deploy-triggers
+  workflow_dispatch:
 
 jobs:
   deploy:
