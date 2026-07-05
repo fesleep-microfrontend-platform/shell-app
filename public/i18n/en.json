@@ -2,7 +2,12 @@
   "shell": {
     "nav": {
       "contact": "Contact",
-      "dashboard": "Dashboard"
+      "dashboard": "Dashboard",
+      "catalog": "Catalog",
+      "orders": "My Orders",
+      "login": "Log in",
+      "register": "Sign up",
+      "logout": "Log out"
     },
     "welcome": {
       "title": "Welcome",

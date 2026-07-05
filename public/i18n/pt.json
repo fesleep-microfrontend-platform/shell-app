@@ -2,7 +2,12 @@
   "shell": {
     "nav": {
       "contact": "Contato",
-      "dashboard": "Painel"
+      "dashboard": "Painel",
+      "catalog": "Catálogo",
+      "orders": "Meus Pedidos",
+      "login": "Entrar",
+      "register": "Cadastrar",
+      "logout": "Sair"
     },
     "welcome": {
       "title": "Bem-vindo",

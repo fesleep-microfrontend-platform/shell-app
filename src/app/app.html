@@ -1,12 +1,33 @@
 <div class="app-layout">
   <header class="app-header">
     <nav class="app-nav">
+      <ui-button variant="outline" (pressed)="navigateToCatalog()">
+        {{ 'shell.nav.catalog' | translate }}
+      </ui-button>
       <ui-button variant="outline" (pressed)="navigateToContact()">
         {{ 'shell.nav.contact' | translate }}
       </ui-button>
-      <ui-button variant="outline" (pressed)="navigateToDashboard()">
-        {{ 'shell.nav.dashboard' | translate }}
-      </ui-button>
+      @if (auth.isAdmin()) {
+        <ui-button variant="outline" (pressed)="navigateToDashboard()">
+          {{ 'shell.nav.dashboard' | translate }}
+        </ui-button>
+      }
+      @if (auth.isLoggedIn()) {
+        <ui-button variant="outline" (pressed)="navigateToOrders()">
+          {{ 'shell.nav.orders' | translate }}
+        </ui-button>
+        <span class="app-nav__user">{{ auth.currentUser()?.name }}</span>
+        <ui-button variant="ghost" (pressed)="logout()">
+          {{ 'shell.nav.logout' | translate }}
+        </ui-button>
+      } @else {
+        <ui-button variant="ghost" (pressed)="navigateToLogin()">
+          {{ 'shell.nav.login' | translate }}
+        </ui-button>
+        <ui-button variant="secondary" (pressed)="navigateToRegister()">
+          {{ 'shell.nav.register' | translate }}
+        </ui-button>
+      }
     </nav>
   </header>
 

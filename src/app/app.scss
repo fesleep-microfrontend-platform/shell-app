@@ -19,6 +19,11 @@
   flex-wrap: wrap;
 }
 
+.app-nav__user {
+  font-size: 0.9375rem;
+  color: var(--app-muted-color, #64748b);
+}
+
 .app-main {
   flex: 1;
   display: flex;

@@ -7,8 +7,12 @@
  */
 export const environment = {
   production: true,
+  apiBaseUrl: 'https://your-minimalapis-url',
   federation: {
     contact: 'https://your-contact-remote-url/remoteEntry.json',
     dashboard: 'https://your-dashboard-remote-url/remoteEntry.json',
+    auth: 'https://your-auth-remote-url/remoteEntry.json',
+    catalog: 'https://your-catalog-remote-url/remoteEntry.json',
+    orders: 'https://your-orders-remote-url/remoteEntry.json',
   },
 } as const;
