@@ -45,5 +45,111 @@
     "send": "Enviar mensagem",
     "otherWays": "Outras formas de contato",
     "emailLabel": "E-mail:"
+  },
+  "auth": {
+    "login": {
+      "title": "Entrar",
+      "subtitle": "Bem-vindo de volta. Informe seus dados para continuar.",
+      "email": "E-mail",
+      "emailPlaceholder": "voce@exemplo.com",
+      "password": "Senha",
+      "passwordPlaceholder": "Sua senha",
+      "submit": "Entrar",
+      "noAccount": "Não tem uma conta?",
+      "signUp": "Cadastre-se",
+      "error": "E-mail ou senha inválidos."
+    },
+    "register": {
+      "title": "Cadastrar",
+      "subtitle": "Crie uma conta para começar a comprar.",
+      "name": "Nome",
+      "namePlaceholder": "Seu nome completo",
+      "email": "E-mail",
+      "emailPlaceholder": "voce@exemplo.com",
+      "password": "Senha",
+      "passwordPlaceholder": "No mínimo 8 caracteres",
+      "submit": "Criar conta",
+      "hasAccount": "Já tem uma conta?",
+      "logIn": "Entrar",
+      "errorConflict": "Já existe uma conta com este e-mail.",
+      "errorGeneric": "Não foi possível criar sua conta. Verifique os dados informados."
+    }
+  },
+  "catalog": {
+    "list": {
+      "title": "Catálogo",
+      "cart": "Carrinho ({{count}})",
+      "manageProducts": "Gerenciar produtos",
+      "search": "Buscar",
+      "searchPlaceholder": "Buscar produtos...",
+      "loading": "Carregando produtos",
+      "inStock": "{{count}} em estoque",
+      "addToCart": "Adicionar ao carrinho",
+      "empty": "Nenhum produto encontrado."
+    },
+    "detail": {
+      "backToCatalog": "Voltar ao catálogo",
+      "loading": "Carregando produto",
+      "sku": "SKU: {{sku}}",
+      "inStock": "{{count}} em estoque",
+      "addToCart": "Adicionar ao carrinho",
+      "notFound": "Produto não encontrado."
+    },
+    "cart": {
+      "continueShopping": "Continuar comprando",
+      "title": "Seu carrinho",
+      "empty": "Seu carrinho está vazio.",
+      "remove": "Remover",
+      "total": "Total",
+      "checkout": "Finalizar compra",
+      "checkoutError": "Não foi possível finalizar a compra. Tente novamente.",
+      "removeModalTitle": "Remover item",
+      "removeModalBody": "Remover este item do carrinho?",
+      "cancel": "Cancelar"
+    },
+    "manage": {
+      "title": "Gerenciar produtos",
+      "newProduct": "Novo produto",
+      "name": "Nome",
+      "sku": "SKU",
+      "description": "Descrição",
+      "price": "Preço",
+      "currency": "Moeda",
+      "stockQuantity": "Quantidade em estoque",
+      "cancel": "Cancelar",
+      "save": "Salvar",
+      "loading": "Carregando produtos",
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "edit": "Editar",
+      "deactivate": "Desativar",
+      "deactivateModalTitle": "Desativar produto",
+      "deactivateModalBody": "Este produto deixará de ser visível para os clientes. Continuar?",
+      "saveError": "Não foi possível salvar este produto. Verifique os campos e tente novamente."
+    }
+  },
+  "orders": {
+    "list": {
+      "titleAdmin": "Todos os pedidos",
+      "titleCustomer": "Meus pedidos",
+      "loading": "Carregando pedidos",
+      "orderNumber": "Pedido #{{id}}",
+      "empty": "Ainda não há pedidos."
+    },
+    "detail": {
+      "backToOrders": "Voltar aos pedidos",
+      "loading": "Carregando pedido",
+      "orderNumber": "Pedido #{{id}}",
+      "total": "Total",
+      "cancellationReason": "Motivo do cancelamento",
+      "cancelOrder": "Cancelar pedido",
+      "notFound": "Pedido não encontrado.",
+      "cancelModalTitle": "Cancelar pedido",
+      "reason": "Motivo",
+      "reasonPlaceholder": "Por que você está cancelando?",
+      "back": "Voltar",
+      "confirmCancellation": "Confirmar cancelamento",
+      "cancelError": "Não foi possível cancelar este pedido."
+    }
   }
 }

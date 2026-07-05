@@ -45,5 +45,111 @@
     "send": "Send message",
     "otherWays": "Other ways to reach us",
     "emailLabel": "Email:"
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "subtitle": "Welcome back. Enter your details to continue.",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Your password",
+      "submit": "Log in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "error": "Invalid email or password."
+    },
+    "register": {
+      "title": "Sign up",
+      "subtitle": "Create an account to start shopping.",
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 8 characters",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "logIn": "Log in",
+      "errorConflict": "An account with this email already exists.",
+      "errorGeneric": "Could not create your account. Please check your details."
+    }
+  },
+  "catalog": {
+    "list": {
+      "title": "Catalog",
+      "cart": "Cart ({{count}})",
+      "manageProducts": "Manage products",
+      "search": "Search",
+      "searchPlaceholder": "Search products...",
+      "loading": "Loading products",
+      "inStock": "{{count}} in stock",
+      "addToCart": "Add to cart",
+      "empty": "No products found."
+    },
+    "detail": {
+      "backToCatalog": "Back to catalog",
+      "loading": "Loading product",
+      "sku": "SKU: {{sku}}",
+      "inStock": "{{count}} in stock",
+      "addToCart": "Add to cart",
+      "notFound": "Product not found."
+    },
+    "cart": {
+      "continueShopping": "Continue shopping",
+      "title": "Your cart",
+      "empty": "Your cart is empty.",
+      "remove": "Remove",
+      "total": "Total",
+      "checkout": "Checkout",
+      "checkoutError": "Could not complete checkout. Please try again.",
+      "removeModalTitle": "Remove item",
+      "removeModalBody": "Remove this item from your cart?",
+      "cancel": "Cancel"
+    },
+    "manage": {
+      "title": "Manage products",
+      "newProduct": "New product",
+      "name": "Name",
+      "sku": "SKU",
+      "description": "Description",
+      "price": "Price",
+      "currency": "Currency",
+      "stockQuantity": "Stock quantity",
+      "cancel": "Cancel",
+      "save": "Save",
+      "loading": "Loading products",
+      "active": "Active",
+      "inactive": "Inactive",
+      "edit": "Edit",
+      "deactivate": "Deactivate",
+      "deactivateModalTitle": "Deactivate product",
+      "deactivateModalBody": "This product will no longer be visible to customers. Continue?",
+      "saveError": "Could not save this product. Check the fields and try again."
+    }
+  },
+  "orders": {
+    "list": {
+      "titleAdmin": "All orders",
+      "titleCustomer": "My orders",
+      "loading": "Loading orders",
+      "orderNumber": "Order #{{id}}",
+      "empty": "No orders yet."
+    },
+    "detail": {
+      "backToOrders": "Back to orders",
+      "loading": "Loading order",
+      "orderNumber": "Order #{{id}}",
+      "total": "Total",
+      "cancellationReason": "Cancellation reason",
+      "cancelOrder": "Cancel order",
+      "notFound": "Order not found.",
+      "cancelModalTitle": "Cancel order",
+      "reason": "Reason",
+      "reasonPlaceholder": "Why are you cancelling?",
+      "back": "Back",
+      "confirmCancellation": "Confirm cancellation",
+      "cancelError": "Could not cancel this order."
+    }
   }
 }
