@@ -20,16 +20,16 @@
   },
   "dashboard": {
     "title": "Painel",
-    "subtitle": "Uma visão rápida das principais métricas do seu app.",
+    "subtitle": "Uma visão rápida das principais métricas da sua loja.",
     "refresh": "Atualizar dados",
-    "activeUsers": "Usuários ativos",
-    "newSignups": "Novos cadastros",
-    "conversionRate": "Taxa de conversão",
-    "recentActivity": "Atividade recente",
-    "hint24h": "Últimas 24 horas (placeholder).",
-    "hintToday": "Hoje (placeholder).",
-    "hintSample": "Métrica de exemplo apenas para layout.",
-    "hintCharts": "Esta área pode exibir gráficos, tabelas ou logs. Por enquanto, é apenas um placeholder para ajudar no layout."
+    "activeProducts": "Produtos ativos",
+    "totalOrders": "Total de pedidos",
+    "revenue": "Receita",
+    "byStatus": "Pedidos por status",
+    "hintProducts": "Atualmente ativos no catálogo.",
+    "hintOrders": "Considerando todos os clientes.",
+    "hintRevenue": "Soma dos pedidos pagos, enviados e entregues.",
+    "hintNoOrders": "Ainda não há pedidos."
   },
   "contact": {
     "title": "Fale conosco",

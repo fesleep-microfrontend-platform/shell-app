@@ -20,16 +20,16 @@
   },
   "dashboard": {
     "title": "Dashboard",
-    "subtitle": "A quick overview of your app's key metrics.",
+    "subtitle": "A quick overview of your store's key metrics.",
     "refresh": "Refresh data",
-    "activeUsers": "Active users",
-    "newSignups": "New signups",
-    "conversionRate": "Conversion rate",
-    "recentActivity": "Recent activity",
-    "hint24h": "Last 24 hours (placeholder).",
-    "hintToday": "Today (placeholder).",
-    "hintSample": "Sample metric for layout only.",
-    "hintCharts": "This area can show charts, tables, or logs. For now, it's just a placeholder to help you design the layout."
+    "activeProducts": "Active products",
+    "totalOrders": "Total orders",
+    "revenue": "Revenue",
+    "byStatus": "Orders by status",
+    "hintProducts": "Currently active in the catalog.",
+    "hintOrders": "Across all customers.",
+    "hintRevenue": "Sum of paid, shipped, and delivered orders.",
+    "hintNoOrders": "No orders yet."
   },
   "contact": {
     "title": "Contact us",
