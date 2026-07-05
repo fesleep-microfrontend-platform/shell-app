@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { UiButtonComponent, UiStackComponent } from '@fesleep-microfrontend-platform/ui-design-system';
+import { AuthService } from '@fesleep-microfrontend-platform/shared-data-access';
 
 const THEME_STORAGE_KEY = 'theme';
 const LOCALE_STORAGE_KEY = 'locale';
@@ -16,6 +17,7 @@ export class App {
   protected readonly title = signal('shell-app');
   protected readonly theme = signal<'light' | 'dark'>('light');
   protected readonly router = inject(Router);
+  protected readonly auth = inject(AuthService);
   private readonly translate = inject(TranslateService);
 
   protected isHomePage(): boolean {
@@ -33,6 +35,27 @@ export class App {
 
   navigateToDashboard(): void {
     this.router.navigate(['/dashboard']);
+  }
+
+  navigateToCatalog(): void {
+    this.router.navigate(['/catalog']);
+  }
+
+  navigateToOrders(): void {
+    this.router.navigate(['/orders']);
+  }
+
+  navigateToLogin(): void {
+    this.router.navigate(['/login']);
+  }
+
+  navigateToRegister(): void {
+    this.router.navigate(['/register']);
+  }
+
+  logout(): void {
+    this.auth.logout();
+    this.router.navigate(['/']);
   }
 
   changeLanguage(): void {

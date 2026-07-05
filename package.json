@@ -13,7 +13,8 @@
   "private": true,
   "packageManager": "npm@10.9.4",
   "dependencies": {
-    "@fesleep-microfrontend-platform/ui-design-system": "^0.0.1",
+    "@fesleep-microfrontend-platform/ui-design-system": "file:../ui-design-system",
+    "@fesleep-microfrontend-platform/shared-data-access": "file:../shared-data-access/dist/shared-data-access",
     "@angular/animations": "^21.2.0",
     "@angular/common": "^21.2.0",
     "@angular/compiler": "^21.2.0",
